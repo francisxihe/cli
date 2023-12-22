@@ -1,0 +1,8 @@
+{
+  "name": "type",
+  "version": "0.0.0",
+  "description": "自动生成的type",
+  "main": "index.ts",
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,10 @@
+@import './reset';
+@import './public';
+@import './global';
+@import './mixins';
+@import './element/reset';
+
+.page--common {
+  padding: 16px;
+  background-color: #fff;
+}

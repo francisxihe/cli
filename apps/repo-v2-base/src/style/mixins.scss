@@ -1,0 +1,5 @@
+// Mixin
+
+@mixin g-m-t($size: 0px) {
+  margin-top: $size;
+}

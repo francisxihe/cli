@@ -1,0 +1,31 @@
+<!--
+ * @Author: shill shill@fline88.com
+ * @Date: 2022-09-21 10:55:54
+ * @LastEditors: shill
+ * @LastEditTime: 2022-09-21 15:09:02
+ * @FilePath: \hljga-work-manage\src\components\FxTree\readme.md
+ * @Description: 
+-->
+# 搜索组件封装
+
+## 参数
+
+| 参数 | 说明 | 类型 | 默认值 |
+|---| --- | --- | --- |
+|ruleForm|表单数据对象 |Array | | 
+|rules|表单验证规则 |Object | | 
+|formItem|表单列表 |Object | | 
+|functionList|表单列表中需要的方法 |Object |search 方法必须 | 
+|searchConfig|表单的基本配置 |Object | {
+        xxs: { span: 12, offset: 0 },
+        xs: { span: 12, offset: 0 },
+        sm: { span: 12, offset: 0 },
+        md: { span: 12, offset: 0 },
+        lg: { span: 8, offset: 0 },
+        xl: { span: 6, offset: 0 },
+        xxl: { span: 6, offset: 0 },
+      } | 
+ 
+
+
+

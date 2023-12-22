@@ -1,0 +1,5 @@
+// Function
+
+@function square($base) {
+  @return $base * $base * 1px;
+}

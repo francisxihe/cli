@@ -1,0 +1,39 @@
+{
+  "name": "template",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "dev:template-vite": "turbo run dev --filter template-vite",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "stylelint:fix": "turbo run stylelint:fix",
+    "prepare": "husky install",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "dependencies": {
+    "@fl/cli": "^2.0.5",
+    "chalk": "4.x",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  },
+  "devDependencies": {
+    "@fl/eslint-config": "^0",
+    "@fl/lint": "0.0.18",
+    "@types/fs-extra": "^9.0.13",
+    "fs-extra": "^10.1.0",
+    "eslint": "^8.40.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.11.0",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@7.26.2"
+}

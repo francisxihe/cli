@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "lib": ["esnext", "dom"],
+    "types": ["vite/client", "vite-plugin-svg-icons/client"],
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "vueCompilerOptions": {
+    "target": 2.7,
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/types/**/*.d.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules/*",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/dist"
+  ]
+}

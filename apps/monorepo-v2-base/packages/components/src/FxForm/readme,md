@@ -1,0 +1,25 @@
+<!--
+ * @Author: shill shill@fline88.com
+ * @Date: 2022-09-21 10:55:54
+ * @LastEditors: shill
+ * @LastEditTime: 2022-09-21 15:09:02
+ * @FilePath: \hljga-work-manage\src\components\FxTree\readme.md
+ * @Description: 
+-->
+# 表单组件封装
+
+## 参数
+
+| 参数 | 说明 | 类型 | 默认值 |
+|---| --- | --- | --- |
+|ruleForm|表单数据对象 |`Array` | | 
+|rules|表单验证规则 |`Object` | | 
+|formItem|表单列表 |`Object` | | 
+|functionList|表单列表中需要的方法 |`Object` |search 方法必须 | 
+|girdConfig|表单的基本配置 |`Object` | <code>{grid: {xxs: 24,xs: 24,sm: 24,md: 24,lg: 24,xl: 24,xxl: 24,},gutter: 20,}</code> | 
+|formItemConfig|表单列表的配置 |Object | <code>{<br/>labelWidth: '140px',<br/> labelPosition: 'right',<br/> labelSuffix: '222',<br/> size: 'medium'<br/>}</code>| 
+|optionsData|表单列表中select的option数据 |`Object` | | 
+ 
+
+
+

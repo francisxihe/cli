@@ -1,0 +1,22 @@
+// Mixin
+
+@mixin g-m-t($size: 0px) {
+  margin-top: $size;
+}
+
+//多行文本溢出隐藏默认两行
+@mixin multi-truncate($clamp: 2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $clamp;
+}
+
+//单行文本溢出隐藏默认100px
+@mixin single-truncate($width: 100) {
+  width: #{$width + 'px'};
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

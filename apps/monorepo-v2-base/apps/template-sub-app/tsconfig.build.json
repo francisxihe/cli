@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true
+  },
+  "include": [
+    "src/packages/**/*.ts",
+    "src/packages/**/*.tsx",
+    "src/packages/**/*.vue"
+  ],
+  "exclude": [
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "**/*.spec.tsx",
+    "**/*.spec.ts",
+    "**/*.test.tsx",
+    "**/*.test.ts"
+  ]
+  // "exclude": ["**/*.{spec,test}.{ts,tsx}"]
+}

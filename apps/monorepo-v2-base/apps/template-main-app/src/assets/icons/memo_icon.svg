@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>-mockplus-</title>
+    <g id="信用联合奖惩系统" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g id="图标1102补充" transform="translate(-10.000000, -19.000000)"  fill-rule="nonzero">
+            <g id="图标/备忘录子系统" transform="translate(10.000000, 19.000000)">
+                <rect id="矩形" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M12.5,3 L10,3 C10,1.9 9.1,1 8,1 C6.9,1 6,1.9 6,3 L3.5,3 C3.225,3 3,3.225 3,3.5 L3,14.5 C3,14.775 3.225,15 3.5,15 L12.5,15 C12.775,15 13,14.775 13,14.5 L13,3.5 C13,3.225 12.775,3 12.5,3 Z M8,2.5 C8.275,2.5 8.5,2.725 8.5,3 C8.5,3.275 8.275,3.5 8,3.5 C7.725,3.5 7.5,3.275 7.5,3 C7.5,2.725 7.725,2.5 8,2.5 Z M9,12 L5,12 L5,11 L9,11 L9,12 Z M11,10 L5,10 L5,9 L11,9 L11,10 Z M11,8 L5,8 L5,7 L11,7 L11,8 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

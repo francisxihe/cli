@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "description": "自动生成的api",
+  "main": "index.ts",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "workspace:*"
+  }
+}

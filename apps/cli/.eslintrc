@@ -1,0 +1,5 @@
+{
+  "root": true,
+  "extends": ["@fl/eslint-config", "@fl/eslint-config-ts"],
+  "project": ["./tsconfig.json"]
+}

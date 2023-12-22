@@ -1,0 +1,28 @@
+{
+  "name": "components",
+  "version": "0.0.0",
+  "description": "自动生成的components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.15.13",
+    "vue": "2.x"
+  },
+  "devDependencies": {
+    "@fl/eslint-config-ts": "^0",
+    "@fl/eslint-config-vue2": "^0",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.4.0",
+    "@vue/babel-plugin-transform-vue-jsx": "^1.4.0",
+    "typescript": "^4.4.4",
+    "station": "workspace:*",
+    "utils": "workspace:*",
+    "request": "workspace:*",
+    "echarts": "workspace:*",
+    "type": "workspace:*",
+    "api": "workspace:*"
+  }
+}
